@@ -1,45 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.control.Button?>
-
-<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.javaprogrammingjavafx.SignController">
+<VBox alignment="CENTER" minHeight="600.0" minWidth="800.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="com.example.javaprogrammingjavafx.SignController">
     <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
 
     <Label style="-fx-font-size: 40px;"> Maltepe University </Label>
 
 
-    <HBox alignment="CENTER" spacing="20.0" fx:id="signButtonsHBOX">
-        <Button text="Sign In" onAction="#signInButtonClick"/>
-        <Button text="Sign Up" onAction="#signUpButtonClick"/>
+    <HBox fx:id="signButtonsHBOX" alignment="CENTER" spacing="20.0">
+        <Button onAction="#signInButtonClick" text="Sign In" />
+        <Button onAction="#signUpButtonClick" text="Sign Up" />
     </HBox>
 
-    <HBox alignment="CENTER" visible="false" spacing="20.0" fx:id="signInHBOX">
+    <HBox fx:id="signInHBOX" alignment="CENTER" spacing="20.0" visible="false">
         <Label> ID: </Label>
         <TextField fx:id="idSignInTextField"> </TextField>
         <Label> Password: </Label>
         <PasswordField fx:id="passwordSignInField"> </PasswordField>
-        <Button> Submit </Button>
+        <Button onAction="#switchToMainScreen" text="Submit"> Submit </Button>
     </HBox>
 
-    <HBox alignment="CENTER" visible="false" spacing="20.0" fx:id="signUpHBOX">
+    <HBox fx:id="signUpHBOX" alignment="CENTER" spacing="20.0" visible="false">
         <Label> ID: </Label>
         <TextField fx:id="idSignUpTextField"> </TextField>
         <Label> Password: </Label>
         <PasswordField fx:id="passwordSignUpField"> </PasswordField>
-        <Button> Submit </Button>
+        <Button onAction="#switchToMainScreen" text="Submit" />
     </HBox>
 
 
 
 </VBox>
-

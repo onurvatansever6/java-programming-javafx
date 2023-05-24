@@ -1,2 +1,4 @@
-package com.example.javaprogrammingjavafx;public class MainScreenController {
+package com.example.javaprogrammingjavafx;
+
+public class MainScreenController {
 }
