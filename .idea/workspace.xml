@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0f2146e-6f94-42b9-8ffb-191a4b586294" name="Changes" comment="Scene controller removed" />
+    <list default="true" id="c0f2146e-6f94-42b9-8ffb-191a4b586294" name="Changes" comment="ComboBox added to Add Student page.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +82,9 @@
       <workItem from="1684920703010" duration="2157000" />
       <workItem from="1684926696986" duration="611000" />
       <workItem from="1684944747231" duration="4310000" />
+      <workItem from="1684949164300" duration="295000" />
+      <workItem from="1685010225232" duration="667000" />
+      <workItem from="1685541326244" duration="923000" />
     </task>
     <task id="LOCAL-00001" summary="Changing scenes added to project.">
       <created>1684949036526</created>
@@ -95,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684949060310</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ComboBox added to Add Student page.">
+      <created>1684949358477</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684949358477</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +127,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changing scenes added to project." />
     <MESSAGE value="Scene controller removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scene controller removed" />
+    <MESSAGE value="ComboBox added to Add Student page." />
+    <option name="LAST_COMMIT_MESSAGE" value="ComboBox added to Add Student page." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
