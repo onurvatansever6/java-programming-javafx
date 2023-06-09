@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0f2146e-6f94-42b9-8ffb-191a4b586294" name="Changes" comment="ListView's changed to TableView's" />
+    <list default="true" id="c0f2146e-6f94-42b9-8ffb-191a4b586294" name="Changes" comment="Scene controller removed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +21,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2QBeo6HcUuuA8UGcRVCpYHekXSy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -33,17 +43,21 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/sqljdbc_12.2/enu/mssql-jdbc-12.2.0.jre11.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager">
-    <configuration name="StudentManagementApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="com.example.javaprogrammingjavafx.StudentManagementApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.javaprogrammingjavafx.StudentManagementApplication" />
       <module name="java-programming-javafx" />
       <extension name="coverage">
@@ -58,7 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StudentManagementApplication" />
+        <item itemvalue="Application.com.example.javaprogrammingjavafx.StudentManagementApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -80,9 +94,6 @@
       <workItem from="1684920703010" duration="2157000" />
       <workItem from="1684926696986" duration="611000" />
       <workItem from="1684944747231" duration="4310000" />
-      <workItem from="1684949164300" duration="295000" />
-      <workItem from="1685010225232" duration="667000" />
-      <workItem from="1685541326244" duration="1316000" />
     </task>
     <task id="LOCAL-00001" summary="Changing scenes added to project.">
       <created>1684949036526</created>
@@ -98,19 +109,19 @@
       <option name="project" value="LOCAL" />
       <updated>1684949060310</updated>
     </task>
-    <task id="LOCAL-00003" summary="ComboBox added to Add Student page.">
-      <created>1684949358477</created>
+    <task id="LOCAL-00003" summary="Scene controller removed">
+      <created>1686294758822</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1684949358477</updated>
+      <updated>1686294758822</updated>
     </task>
-    <task id="LOCAL-00004" summary="ListView's changed to TableView's">
-      <created>1685545860019</created>
+    <task id="LOCAL-00004" summary="Scene controller removed">
+      <created>1686295531325</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1685545860019</updated>
+      <updated>1686295531325</updated>
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
@@ -132,9 +143,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changing scenes added to project." />
     <MESSAGE value="Scene controller removed" />
-    <MESSAGE value="ComboBox added to Add Student page." />
-    <MESSAGE value="ListView's changed to TableView's" />
-    <option name="LAST_COMMIT_MESSAGE" value="ListView's changed to TableView's" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scene controller removed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -142,6 +151,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.reflect.InvocationTargetException" package="java.lang.reflect" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.microsoft.sqlserver.jdbc.SQLServerException" package="com.microsoft.sqlserver.jdbc" />
+          <option name="timeStamp" value="21" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
